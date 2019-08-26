@@ -1,0 +1,12 @@
+/* Large devices Desktops-1350px */
+@media(max-width: 1350px) {}
+/* Large devices Desktops-1200px */
+@media(max-width: 1200px) {}
+/* Medium devices Desktops-991px */
+@media(max-width: 991px) {}
+/*Small devices - Tablets - 768px*/
+@media(max-width: 768px) {}
+/*Extra small devices - Phones - 480px*/
+@media(max-width: 480px) {}
+/*Extra small devices - Phones - 320px*/
+@media(max-width: 320px){}
