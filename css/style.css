@@ -5,3 +5,59 @@
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
 }
+
+/*contact*/
+.contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #6c757d0f;
+}
+.contact-info,
+.contact-info h2 {
+    padding-bottom: 25px;
+}
+.contact-info p {
+    padding: 0 50px;
+}
+.contact .contact-details {
+    padding-bottom: 25px;
+}
+.contact .contact-details {
+    display: inline-flex;
+    padding-top: 25px;
+}
+.contact-details i {
+    padding: 15px 0;
+}
+.contact-details h4 {
+    padding: 5px 0;
+}
+.contact-details p {
+    padding: 0 20px;
+}
+.contact-details span{
+    color: #f20b0b;
+}
+.contact-data {
+    padding-top: 25px;
+}
+.form-group {
+    padding: 9px 20px;
+    width: 600px;
+}
+.btn.btn-send {
+    margin: 0 25px;
+    position: absolute;
+    left: 160%;
+    border: 1px solid #555;
+}
+/*contact*/
+/*Start Framework*/
+.navbar,
+.home,
+.contact {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+/*End Framework*/
+
