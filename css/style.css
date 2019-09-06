@@ -4,9 +4,16 @@
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
+    height:auto;
 }
 .home {
     background-color: darkgray;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
 }
 .home h2 {
     padding-bottom: 25px;
@@ -24,8 +31,8 @@
     color: #fff;
     background-color: #007bff;
     border-color: #007bff;
-        padding: 15px 30px;
-
+    padding: 15px 30px;
+    margin-top: 25px;
 }
 /*contact*/
 .contact {
@@ -74,7 +81,7 @@
 }
 /*contact*/
 .social {
-    background-color: aquamarine;
+    background-color: #495057;
 }
 .social-data h2 {
     padding-bottom: 25px;
@@ -86,8 +93,9 @@
     padding-top: 25px;
 }
 .social-data .icons i {
-    border: 3px solid #000;
+    border: 2px solid #fff;
     padding: 5px 10px;
+    color: #fff;
 }
 /* Start Footer */
 footer {
