@@ -4,8 +4,40 @@
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
-
+/*
+.body-scroll-no{
+    overflow: hidden;
+}
+*/
+.home {
+    background-color: darkgray;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+.home h2 {
+    padding-bottom: 25px;
+}
+.home p {
+    padding: 0 50px;
+}
+.btn-lg {
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 15px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 15px 30px;
+    margin-top: 25px;
+}
 /*contact*/
 .contact {
     padding-top: 120px;
@@ -52,10 +84,43 @@
     border: 1px solid #555;
 }
 /*contact*/
+.social {
+    background-color: #49505794;
+}
+.social-data h2 {
+    padding-bottom: 25px;
+}
+.social-data p {
+    padding: 0 10%;
+}
+.social-data .icons {
+    padding-top: 25px;
+}
+.social-data .icons i {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    color: #fff;
+}
+/* Start Footer */
+footer {
+    padding: 25px;
+}
+
+footer p {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #4d5e60b5;
+    font-weight: bold;
+}
+
+/* End Footer */
+
 /*Start Framework*/
-.navbar,
+/*.navbar,*/
 .home,
-.contact {
+.contact,
+.social {
     padding-top: 90px;
     padding-bottom: 90px;
 }
