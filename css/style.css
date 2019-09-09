@@ -4,8 +4,13 @@
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
-    height:auto;
+    font-family: 'Open Sans', sans-serif;
 }
+/*
+.body-scroll-no{
+    overflow: hidden;
+}
+*/
 .home {
     background-color: darkgray;
     background-image: url(../images/background.jpg);
@@ -22,10 +27,9 @@
     padding: 0 50px;
 }
 .btn-lg {
-/*    padding: 10px 30px;*/
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.5;
-    border-radius: 0.3rem;
+    border-radius: 15px;
 }
 .btn-primary {
     color: #fff;
@@ -81,7 +85,7 @@
 }
 /*contact*/
 .social {
-    background-color: #495057;
+    background-color: #49505794;
 }
 .social-data h2 {
     padding-bottom: 25px;
@@ -106,7 +110,7 @@ footer p {
     width: 100%;
     padding: 0;
     margin: 0;
-    color: #007bff;
+    color: #4d5e60b5;
     font-weight: bold;
 }
 
