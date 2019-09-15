@@ -111,6 +111,35 @@ nav.navbar{
 }
 /* End service */
 /* Start Hire me  */
+}
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+/* End navbar */
+
+/* Start Home Page  */
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.wallpaperscraft.com/image/man_loneliness_fog_123300_1280x720.jpg');
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+}
+.home .row,
+.home .container{
+    width: 100%;
+    height: 100%;
+}
+.home h1{
+    font-weight: bold;
+    color: #fff
+}
+/* End Home Page  */
 .hire-me {
     background-color: darkgray;
     background-image: url(../images/background.jpg);
@@ -240,6 +269,7 @@ footer p {
 .portofolio,
 .hire-me,
 .blog,
+.hire-me,
 .contact,
 .social {
     padding-top: 90px;
@@ -257,7 +287,6 @@ footer p {
     vertical-align: middle;
     text-align: center;
 }
-
 p {
     padding: 15px 22%;
     letter-spacing: 0.3px;
