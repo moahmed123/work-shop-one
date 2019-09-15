@@ -25,6 +25,19 @@ nav.navbar{
     color: #fff;
 }
 
+/*amir*/
+.navbar .logo img {
+    width: 20%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 25%;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e67e22;
+}
+/*amir*/
 /* End navbar */
 
 /* Start Home Page  */
@@ -33,7 +46,6 @@ nav.navbar{
     height: 100%;
     background-image: url('https://images.wallpaperscraft.com/image/man_loneliness_fog_123300_1280x720.jpg');
     background-position: center center;
-    /* background-repeat: no-repeat; */
 }
 .home .row,
 .home .container{
@@ -43,6 +55,9 @@ nav.navbar{
 .home h1{
     font-weight: bold;
     color: #fff
+}
+.home span {
+    color: #e67e22;
 }
 /* End Home Page*/
 /* Start service */
@@ -58,6 +73,7 @@ nav.navbar{
     font-weight: bold;
     padding: 0;
     padding-bottom: 15px;
+    color: #e67e22;
 }
 
 .service-info p {
@@ -82,6 +98,9 @@ nav.navbar{
     margin: 0;
     padding: 10px 0 15px 0;
 }
+.service-body h4:hover {
+    color: #e67e22;
+}
 
 .service-body p {
     padding: 0 20px;
@@ -95,7 +114,6 @@ nav.navbar{
 .hire-me {
     background-color: darkgray;
     background-image: url(../images/background.jpg);
-    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
@@ -103,6 +121,7 @@ nav.navbar{
 }
 .hire-me h2 {
     padding-bottom: 25px;
+    color: #e67e22;
 }
 .hire-me p {
     padding: 0 50px;
@@ -119,6 +138,9 @@ nav.navbar{
     padding: 15px 30px;
     margin-top: 25px;
 }
+.btn-primary:hover {
+    background-color: #e67e22;
+}
 /* End Hire me  */
 /* Start contact */
 .contact {
@@ -129,6 +151,7 @@ nav.navbar{
 .contact-info,
 .contact-info h2 {
     padding-bottom: 25px;
+    color: #e67e22;
 }
 
 .contact .contact-details {
@@ -148,7 +171,7 @@ nav.navbar{
     padding: 0 20px;
 }
 .contact-details span{
-    color: #f20b0b;
+    color: #e67e22;
 }
 .contact-data {
     padding-top: 25px;
@@ -158,10 +181,13 @@ nav.navbar{
     width: 600px;
 }
 .btn.btn-send {
-    margin: 0 25px;
+    margin: 0 20px;
     position: absolute;
     left: 160%;
     border: 1px solid #555;
+}
+.btn.btn-send:hover {
+    background-color: #e67e22;
 }
 /* End contact */
 /* Start social */
@@ -170,6 +196,7 @@ nav.navbar{
 }
 .social-data h2 {
     padding-bottom: 25px;
+    color: #e67e22;
 }
 .social-data p {
     padding: 15px 22%;
@@ -185,6 +212,9 @@ nav.navbar{
     border: 2px solid #fff;
     padding: 5px 10px;
     color: #fff;
+}
+.social-data .icons i:hover {
+    background-color: #e67e22;
 }
 /* End social */
 /* Start Footer */
@@ -205,8 +235,11 @@ footer p {
 /* End Footer */
 /*Start Framework*/
 /*.navbar,*/
-.hire-me,
+.about,
 .service,
+.portofolio,
+.hire-me,
+.blog,
 .contact,
 .social {
     padding-top: 90px;
