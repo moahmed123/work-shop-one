@@ -146,6 +146,10 @@ nav.navbar{
 .btn-primary:hover {
     background-color: #e67e22;
 }
+
+.btn-primary:hover {
+    border-color: unset;
+}
 /* End Hire me  */
 /* Start contact */
 .contact {
