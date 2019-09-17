@@ -25,30 +25,98 @@ nav.navbar{
     color: #fff;
 }
 
+/*amir*/
+.navbar .logo img {
+    width: 20%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    right: 25%;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e67e22;
+}
+/*amir*/
 /* End navbar */
 
 /* Start Home Page  */
-.home{
+.home {
     width: 100%;
     height: 100%;
-    background-image: url('https://images.wallpaperscraft.com/image/man_loneliness_fog_123300_1280x720.jpg');
+/*    background-image: url('https://images.wallpaperscraft.com/image/man_loneliness_fog_123300_1280x720.jpg');*/
+    background-image: url(../images/home.jpg);
     background-position: center center;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .home .row,
-.home .container{
+.home .container {
     width: 100%;
     height: 100%;
 }
-.home h1{
+.home h1 {
     font-weight: bold;
     color: #fff
 }
-/* End Home Page  */
+.home span {
+    color: #e67e22;
+}
+/* End Home Page*/
+/* Start service */
+.service {
+    background-color: #4950574f;
+}
+
+.service-info h2 {
+    padding-bottom: 25px;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    padding: 0;
+    padding-bottom: 15px;
+    color: #e67e22;
+}
+
+.service-info p {
+    padding: 15px 22%;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    color: #505050;
+    font-size: 14px;
+}
+
+.service-body {
+    padding-top: 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+.service-body i {
+    padding-bottom: 20px;
+}
+
+.service-body h4 {
+    margin: 0;
+    padding: 10px 0 15px 0;
+}
+.service-body h4:hover {
+    color: #e67e22;
+}
+
+.service-body p {
+    padding: 0 20px;
+}
+
+.service-body .icon {
+    padding-bottom: 30px;
+}
+/* End service */
+/* Start Hire me  */
 .hire-me {
     background-color: darkgray;
     background-image: url(../images/background.jpg);
-    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
@@ -56,10 +124,13 @@ nav.navbar{
 }
 .hire-me h2 {
     padding-bottom: 25px;
+    color: #e67e22;
 }
+/*
 .hire-me p {
     padding: 0 50px;
 }
+*/
 .btn-lg {
     font-size: 20px;
     line-height: 1.5;
@@ -72,7 +143,15 @@ nav.navbar{
     padding: 15px 30px;
     margin-top: 25px;
 }
-/*contact*/
+.btn-primary:hover {
+    background-color: #e67e22;
+}
+
+.btn-primary:hover {
+    border-color: unset;
+}
+/* End Hire me  */
+/* Start contact */
 .contact {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -81,10 +160,9 @@ nav.navbar{
 .contact-info,
 .contact-info h2 {
     padding-bottom: 25px;
+    color: #e67e22;
 }
-.contact-info p {
-    padding: 0 50px;
-}
+
 .contact .contact-details {
     padding-bottom: 25px;
 }
@@ -102,7 +180,7 @@ nav.navbar{
     padding: 0 20px;
 }
 .contact-details span{
-    color: #f20b0b;
+    color: #e67e22;
 }
 .contact-data {
     padding-top: 25px;
@@ -112,20 +190,33 @@ nav.navbar{
     width: 600px;
 }
 .btn.btn-send {
-    margin: 0 25px;
+    margin: 0 20px;
     position: absolute;
     left: 160%;
     border: 1px solid #555;
 }
-/*contact*/
+.btn.btn-send:hover {
+    background-color: #e67e22;
+}
+/* End contact */
+/* Start social */
+.social .icons img {
+    width: 3%;
+}
+
 .social {
     background-color: #49505794;
 }
 .social-data h2 {
     padding-bottom: 25px;
+    color: #e67e22;
 }
 .social-data p {
-    padding: 0 10%;
+    padding: 15px 22%;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    color: #505050;
+    font-size: 14px;
 }
 .social-data .icons {
     padding-top: 25px;
@@ -135,6 +226,10 @@ nav.navbar{
     padding: 5px 10px;
     color: #fff;
 }
+.social-data .icons i:hover {
+    background-color: #e67e22;
+}
+/* End social */
 /* Start Footer */
 footer {
     padding: 25px;
@@ -144,15 +239,20 @@ footer p {
     width: 100%;
     padding: 0;
     margin: 0;
-    color: #4d5e60b5;
     font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    color: #505050;
+    font-size: 14px;
 }
-
 /* End Footer */
-
 /*Start Framework*/
 /*.navbar,*/
+.about,
+.service,
+.portofolio,
 .hire-me,
+.blog,
 .contact,
 .social {
     padding-top: 90px;
@@ -169,6 +269,14 @@ footer p {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+
+.para {
+    padding: 15px 22%;
+    letter-spacing: 0.3px;
+    line-height: 30px;
+    color: #505050;
+    font-size: 14px;
 }
 /*End Framework*/
 
