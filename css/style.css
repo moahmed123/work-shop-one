@@ -4,24 +4,59 @@
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
-body{
+
+body {
     position: absolute;
     width: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* Start navbar */
-nav.navbar{
+/* Start Loading */
+.Loading-Page {
     position: absolute;
     width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 3333;
 }
+
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+    color: rgba(230, 126, 34, 0.5882352941176471);
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+    color: rgba(230, 126, 34, 0.5882352941176471);
+}
+
+/* End Loading */
+/* Start navbar */
+nav.navbar {
+    position: absolute;
+    width: 100%;
+    padding: 25px 0;
+}
+
 .navbar-light .navbar-nav .show > .nav-link,
-.navbar-light .navbar-nav .active > .nav-link, 
-.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-light .nav-item.active a.nav-link {
+    color: #e67e22;
+}
+
+.navbar-light .navbar-brand:hover {
     color: #fff;
 }
 
@@ -34,9 +69,11 @@ nav.navbar{
     position: relative;
     right: 25%;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color: #e67e22;
 }
+
 /*amir*/
 /* End navbar */
 
@@ -44,39 +81,182 @@ nav.navbar{
 .home {
     width: 100%;
     height: 100%;
-/*    background-image: url('https://images.wallpaperscraft.com/image/man_loneliness_fog_123300_1280x720.jpg');*/
     background-image: url(../images/home.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0, 0, 0, .45);
+    background-blend-mode: overlay
 }
+
 .home .row,
 .home .container {
     width: 100%;
     height: 100%;
 }
+
 .home h1 {
     font-weight: bold;
-    color: #fff
-}
-.home span {
-    color: #e67e22;
-}
-/* End Home Page*/
-/* Start service */
-.service {
-    background-color: #4950574f;
+    color: #fff;
+    font-size: 6em;
 }
 
-.service-info h2 {
-    padding-bottom: 25px;
-    font-size: 35px;
-    text-align: center;
+.home .home-type,
+.home .containt-type {
+    color: #fff;
+}
+
+.typed-cursor {
+    /* opacity: 0 !important; */
+    color: #fff
+}
+
+.home .home-mouse {
+    bottom: 5.5%;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 29px
+}
+
+.home .home-mouse .mouse-shape {
+    background-color: rgba(0, 0, 0, .45);
+    border: 2px solid transparent;
+    border-color: #fff;
+    border-radius: 25px;
+    box-sizing: content-box;
+    height: 28px;
+    opacity: .8;
+    padding: 5px 11px;
+    width: 3px;
+}
+
+.home .home-mouse .mouse-shape .mouse-wheel {
+    -webkit-animation-duration: 1.3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: scrollDown;
+    -webkit-animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    animation-name: scrollDown;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    background-color: #fff;
+    border-radius: 25%;
+    height: 9px;
+    width: 3px
+}
+
+@-webkit-keyframes scrollDown {
+    0% {
+        opacity: 0
+    }
+
+    10% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0)
+    }
+
+    100% {
+        -webkit-transform: translateY(15px);
+        opacity: 0;
+        transform: translateY(15px)
+    }
+}
+
+@keyframes scrollDown {
+    0% {
+        opacity: 0
+    }
+
+    10% {
+        -webkit-transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0)
+    }
+
+    100% {
+        -webkit-transform: translateY(15px);
+        opacity: 0;
+        transform: translateY(15px)
+    }
+}
+
+/* End Home Page*/
+/* Start About Page*/
+.about h2 {
+    font-weight: 600;
+    padding-bottom: 26px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 29px;
     margin: 0;
-    font-weight: bold;
-    padding: 0;
-    padding-bottom: 15px;
+    color: #080808;
+}
+
+.about h6 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about .content-description {
+    padding-top: 20px;
+    margin: 0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+
+.about a {
     color: #e67e22;
+}
+
+.about .single-info span {
+    display: inline-block;
+}
+
+.about .single-info p {
+    padding: 0 5px;
+}
+
+.about .single-info span,
+.about .single-info p {
+    display: inline-block;
+}
+
+.about .content-work {
+    border: 1px solid #e67e22;
+}
+
+.about .content-work:hover {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.about .content-info {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.about .content-Download {
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+    margin: 0 20px;
+}
+
+.about .content-Download:hover {
+    background-color: #fff;
+    color: #e67e22;
+}
+
+/* End About Page*/
+/* Start service */
+.service {
+    background-color: #fafafa;
 }
 
 .service-info p {
@@ -95,15 +275,19 @@ nav.navbar{
 
 .service-body i {
     padding-bottom: 20px;
+    color: #e67e22;
 }
 
 .service-body h4 {
     margin: 0;
     padding: 10px 0 15px 0;
 }
+
+/*
 .service-body h4:hover {
     color: #e67e22;
 }
+*/
 
 .service-body p {
     padding: 0 20px;
@@ -112,6 +296,7 @@ nav.navbar{
 .service-body .icon {
     padding-bottom: 30px;
 }
+
 /* End service */
 /* Start Hire me  */
 .hire-me {
@@ -122,10 +307,11 @@ nav.navbar{
     background-blend-mode: overlay;
     background-size: cover;
 }
+
 .hire-me h2 {
     padding-bottom: 25px;
-    color: #e67e22;
 }
+
 /*
 .hire-me p {
     padding: 0 50px;
@@ -136,6 +322,7 @@ nav.navbar{
     line-height: 1.5;
     border-radius: 15px;
 }
+
 .btn-primary {
     color: #fff;
     background-color: #007bff;
@@ -143,6 +330,7 @@ nav.navbar{
     padding: 15px 30px;
     margin-top: 25px;
 }
+
 .btn-primary:hover {
     background-color: #e67e22;
 }
@@ -150,54 +338,71 @@ nav.navbar{
 .btn-primary:hover {
     border-color: unset;
 }
+
 /* End Hire me  */
+/* Start Blog */
+.blog {
+    background-color: #6666;
+}
+
+.blog .image img {
+    width: 100%;
+    height: auto;
+}
+
+/* End Blog  */
 /* Start contact */
 .contact {
     padding-top: 120px;
     padding-bottom: 120px;
     background-color: #6c757d0f;
 }
-.contact-info,
-.contact-info h2 {
-    padding-bottom: 25px;
-    color: #e67e22;
-}
 
 .contact .contact-details {
     padding-bottom: 25px;
 }
+
 .contact .contact-details {
     display: inline-flex;
     padding-top: 25px;
 }
+
 .contact-details i {
     padding: 15px 0;
 }
+
 .contact-details h4 {
     padding: 5px 0;
 }
+
 .contact-details p {
     padding: 0 20px;
 }
-.contact-details span{
+
+.contact-details span {
     color: #e67e22;
 }
+
 .contact-data {
     padding-top: 25px;
 }
+
 .form-group {
     padding: 9px 20px;
     width: 600px;
 }
+
 .btn.btn-send {
     margin: 0 20px;
     position: absolute;
     left: 160%;
     border: 1px solid #555;
 }
+
 .btn.btn-send:hover {
     background-color: #e67e22;
 }
+
 /* End contact */
 /* Start social */
 .social .icons img {
@@ -207,10 +412,12 @@ nav.navbar{
 .social {
     background-color: #49505794;
 }
+
 .social-data h2 {
     padding-bottom: 25px;
-    color: #e67e22;
+    /*    color: #e67e22;*/
 }
+
 .social-data p {
     padding: 15px 22%;
     letter-spacing: 0.3px;
@@ -218,17 +425,21 @@ nav.navbar{
     color: #505050;
     font-size: 14px;
 }
+
 .social-data .icons {
     padding-top: 25px;
 }
+
 .social-data .icons i {
     border: 2px solid #fff;
     padding: 5px 10px;
     color: #fff;
 }
+
 .social-data .icons i:hover {
     background-color: #e67e22;
 }
+
 /* End social */
 /* Start Footer */
 footer {
@@ -245,6 +456,7 @@ footer p {
     color: #505050;
     font-size: 14px;
 }
+
 /* End Footer */
 /*Start Framework*/
 /*.navbar,*/
@@ -258,12 +470,14 @@ footer p {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.T-table{
+
+.T-table {
     display: table;
     width: 100%;
     height: 100%;
 }
-.T-table-cell{
+
+.T-table-cell {
     height: 100%;
     width: 100%;
     display: table-cell;
@@ -278,5 +492,11 @@ footer p {
     color: #505050;
     font-size: 14px;
 }
-/*End Framework*/
 
+.span-color {
+    color: #e67e22;
+}
+
+.Se-header {}
+
+/*End Framework*/

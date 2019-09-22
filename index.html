@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- To ensure proper rendering and touch zooming -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="Hamada Template is an easy to use template, help you to take yoga and meditation classes on all of your devices whenever you want. Browse yoga classes and offer, style, length, teacher and interest. choose your suitable time from Ttime schedule and enjoy.">
+    <meta name="description" content="Hamada Template is an easy to use template, help you to take yoga and meditation classes on all of your devices whenever you want. Browse yoga classes and offer, style, length, teacher and interest. choose your suitable time from Ttime schedule and enjoy.">
     <!-- Description In Google-->
     <meta name="author" content="Amir Ahmed"><!-- Author's Name -->
     <!-- Bootstrap core CSS -->
@@ -41,43 +40,46 @@
 </head>
 
 <body class="body-scroll-no">
+    <!-- Start Loading -->
+    <div class="Loading-Page">
+        <div class="T-table">
+            <div class="T-table-cell">
+                <h2 class="ml2">Garb anzo</h1>
+            </div>
+        </div>
+    </div>
+    <!-- End Loading -->
     <!-- Start Nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-                <a class="navbar-brand" href="#">Logo</a>
-                <!--amir-->
-                <div class="logo">
-                    <img src="images/logo.jpg" alt="logo">
-                </div>
-                <!--amir-->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-        </div>        
+            <a class="navbar-brand" href="#">Garb<span class="span-color">anzo</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- End Nav -->
     <!-- Start Home -->
@@ -86,9 +88,27 @@
             <div class="row">
                 <div class="T-table">
                     <div class="T-table-cell">
-                        <h1> I'M <span>johnDow</span></h1>
+                        <h1>John <span class="span-color">Doe</span></h1>
+                        <div id="typed-strings">
+                            <p><strong> Front End </strong> Devloper </p>
+                            <p><strong> FullStack </strong> Developer </p>
+                        </div>
+                        <div class="containt-type">
+                            I'm
+                            <span id="typed" class="home-type"></span>
+                        </div>
+
+
+                        <a href="#about-area" data-scroll="">
+                            <div class="home-mouse">
+                                <div class="mouse-shape">
+                                    <div class="mouse-wheel"></div>
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </section>
@@ -96,8 +116,44 @@
     <!-- Start About -->
     <section class="about">
         <div class="container">
-            <div class="row">
-                <h2> About </h2>
+            <div class="row align-items-center">
+                <!-- Picture part-->
+                <div class="col-12 col-lg-5 about-img">
+                    <img class="img-fluid" src="./images/about-img.jpg" alt="Loading ... ">
+                </div>
+                <!-- Content part-->
+                <div class="col-12 col-lg-7 about-content">
+                    <div class="content-block">
+                        <h2> Who am I?</h2>
+                        <h6> I'm John Doe, a visual UX/UI Designer and Web Developer</h6>
+                        <div class="content-description">
+                            <p>I am a freelancer based in the United Kingdom and i have been building noteworthy UX/UI
+                                designs and websites for years, which comply with the latest design trends. I help
+                                convert a vision and an idea into meaningful and useful products. Having a sharp eye for
+                                product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                        </div>
+                        <address class="content-info">
+                            <div class="row">
+                                <div class="col-12 col-md-6 single-info"><span>Name:</span>
+                                    <p>John Doe</p>
+                                </div>
+                                <div class="col-12 col-md-6 single-info"><span>Email:</span>
+                                    <p><a href="mailto:daniel@example.com">alex@example.com</a></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-md-6 single-info"><span>Age:</span>
+                                    <p>25</p>
+                                </div>
+                                <div class="col-12 col-md-6 single-info"><span>From:</span>
+                                    <p>Manchester, UK</p>
+                                </div>
+                            </div>
+                        </address>
+                        <a class="btn content-work" href="#portfolio-area">My Work</a>
+                        <a class="btn content-Download" href="#portfolio-area">Download Cv</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -107,7 +163,7 @@
         <div class="container">
             <div class="row">
                 <div class="service-info text-center">
-                    <h2>Our Services</h2>
+                    <h2 class="Se-header">Our Services</h2>
                     <p class="para">
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
                         at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
@@ -116,48 +172,48 @@
                 </div>
                 <div class="row service-body">
                     <div class="icon col-lg-4 text-center">
-<!--                        <i class="fas fa-desktop fa-3x"></i>-->
-                        <img src="images/1.png" alt="design text-center">
+                        <i class="fas fa-desktop fa-3x"></i>
+                        <!--                        <img src="images/1.png" alt="design text-center">-->
                         <h4>UI/UX Design</h4>
                         <p class="para">
                             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero
                         </p>
                     </div>
                     <div class="icon col-lg-4 text-center">
-<!--                        <i class="fas fa-camera fa-3x"></i>-->
-                        <img src="images/2.png" alt="graphics text-center">
+                        <i class="fas fa-camera fa-3x"></i>
+                        <!--                        <img src="images/2.png" alt="graphics text-center">-->
                         <h4>Graphics</h4>
                         <p class="para">
                             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero
                         </p>
                     </div>
                     <div class="icon col-lg-4 text-center">
-<!--                        <i class="fab fa-cc-amazon-pay fa-3x"></i>-->
-                        <img src="images/3.png" alt="freelancer text-center">
+                        <i class="fab fa-cc-amazon-pay fa-3x"></i>
+                        <!--                        <img src="images/3.png" alt="freelancer text-center">-->
                         <h4>Freelancer</h4>
                         <p class="para">
                             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero
                         </p>
                     </div>
                     <div class="icon col-lg-4 text-center">
-<!--                        <i class="fas fa-chart-line fa-3x"></i>-->
-                        <img src="images/4.png" alt="analysis text-center">
+                        <i class="fas fa-chart-line fa-3x"></i>
+                        <!--                        <img src="images/4.png" alt="analysis text-center">-->
                         <h4>Analysis</h4>
                         <p class="para">
                             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero
                         </p>
                     </div>
                     <div class="icon col-lg-4 text-center">
-<!--                        <i class="fas fa-stethoscope fa-3x"></i>-->
-                        <img src="images/5.png" alt="support text-center">
+                        <i class="fas fa-stethoscope fa-3x"></i>
+                        <!--                        <img src="images/5.png" alt="support text-center">-->
                         <h4>24H Support </h4>
                         <p class="para">
                             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero
                         </p>
                     </div>
                     <div class="icon col-lg-4 text-center">
-<!--                        <i class="fab fa-adversal fa-3x"></i>-->
-                        <img src="images/6.png" alt="marketing text-center">
+                        <i class="fab fa-adversal fa-3x"></i>
+                        <!--                        <img src="images/6.png" alt="marketing text-center">-->
                         <h4>Marketing</h4>
                         <p class="para">
                             Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero
@@ -171,9 +227,7 @@
     <!--Start Portofolio-->
     <section class="portofolio">
         <div class="container">
-            <div class="row">
-                <h2>Portofolio</h2>
-            </div>
+            <h2 class="Se-header">Portofolio</h2>
         </div>
     </section>
     <!--End Portofolio-->
@@ -201,8 +255,51 @@
     <!--Start Blog-->
     <section class="blog">
         <div class="container">
+            <!--            <h2 class="Se-header">Blog</h2>            -->
+            <div class="row info">
+                <div class="blog-info text-center">
+                    <h2 class="Se-header">Our Blog</h2>
+                    <p class="para">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit.
+                    </p>
+                </div>
+            </div>
             <div class="row">
-                <h2>Blog</h2>
+                <div class="col-lg-4 image">
+                    <img src="images/blog-1.jpg" alt="blog-one">
+                    <h2>ddddddddd</h2>
+                    <h4>ffffffff<span>By John Doe</span></h4>
+                    <p class="para">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit.
+                    </p>
+                    <a href="">Read more >>></a>
+                </div>
+                <div class="col-lg-4 image">
+                    <img src="images/blog-2.jpg" alt="blog-one">
+                    <h2>ddddddddd</h2>
+                    <h4>ffffffff<span>By John Doe</span></h4>
+                    <p class="para">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit.
+                    </p>
+                    <a href="">Read more >>></a>
+                </div>
+                <div class="col-lg-4 image">
+                    <img src="images/blog-3.jpg" alt="blog-one">
+                    <h2>ddddddddd</h2>
+                    <h4>ffffffff<span>By John Doe</span></h4>
+                    <p class="para">
+                        Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
+                        at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
+                        ultricies vehicula ut id elit.
+                    </p>
+                    <a href="">Read more >>></a>
+                </div>
             </div>
         </div>
     </section>
@@ -212,7 +309,7 @@
         <div class="container">
             <div class="row">
                 <div class="contact-info">
-                    <h2 class="text-center">CONTACT ME</h2>
+                    <h2 class="text-center Se-header">CONTACT ME</h2>
                     <p class="para text-center">
                         Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra
                         augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -249,25 +346,19 @@
                         <div class="controls-1 col-lg-6">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input id="form_name" type="text" name="name" class="form-control"
-                                        placeholder="First Name:" required="required"
-                                        data-error="Firstname is required.">
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="First Name:" required="required" data-error="Firstname is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input id="form_email" type="email" name="email" class="form-control"
-                                        placeholder="Your E-mail:" required="required"
-                                        data-error="Valid email is required.">
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Your E-mail:" required="required" data-error="Valid email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input id="form_subject" type="subject" name="subject" class="form-control"
-                                        placeholder="Your Subject:" required="required"
-                                        data-error="Valid email is required.">
+                                    <input id="form_subject" type="subject" name="subject" class="form-control" placeholder="Your Subject:" required="required" data-error="Valid email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -275,9 +366,7 @@
                         <div class="controls-2 col-lg-6">
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <textarea id="form_message" name="message" class="form-control"
-                                        placeholder="Your Message" rows="7" required="required"
-                                        data-error="Please,leave us a message."></textarea>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Your Message" rows="7" required="required" data-error="Please,leave us a message."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -301,17 +390,17 @@
                         augue mollis interdum, Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
                     <div class="icons text-center">
-<!--                        <i class="fab fa-facebook-f"></i>-->
+                        <!--                        <i class="fab fa-facebook-f"></i>-->
                         <img src="images/face.png" alt="facebook">
-<!--                        <i class="fab fa-twitter"></i>-->
+                        <!--                        <i class="fab fa-twitter"></i>-->
                         <img src="images/twitter.png" alt="twitter">
-<!--                        <i class="fab fa-instagram"></i>-->
+                        <!--                        <i class="fab fa-instagram"></i>-->
                         <img src="images/instagram.png" alt="instagram">
-<!--                        <i class="fab fa-vimeo-v"></i>-->
+                        <!--                        <i class="fab fa-vimeo-v"></i>-->
                         <img src="images/vimeo.png" alt="viemo">
-<!--                        <i class="fab fa-google-plus-g"></i>-->
+                        <!--                        <i class="fab fa-google-plus-g"></i>-->
                         <img src="images/google-plus.png" alt="google-plus">
-<!--                        <i class="fab fa-linkedin-in"></i>-->
+                        <!--                        <i class="fab fa-linkedin-in"></i>-->
                         <img src="images/linkedin.png" alt="linkedin">
                     </div>
                 </div>
@@ -337,6 +426,12 @@
     <script src="js/bootstrap.js"></script>
     <!-- Smooth-scroll files -->
     <script src="js/smooth-scroll.js"></script>
+    <!-- typed min files -->
+    <script src="js/typed.min.js"></script>
+
+    <!-- Loading -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
     <!-- JS files-->
     <script src="js/main.js"></script>
 </body>
