@@ -350,6 +350,20 @@ nav.navbar {
     height: auto;
 }
 
+.blog h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.blog span {
+    padding-left: 10px;
+    color: #e67e22;
+}
+
+.blog a {
+    color: #978c8c;
+}
 /* End Blog  */
 /* Start contact */
 .contact {
@@ -485,7 +499,7 @@ footer p {
     text-align: center;
 }
 
-.para {
+.se-p {
     padding: 15px 22%;
     letter-spacing: 0.3px;
     line-height: 30px;
@@ -497,6 +511,6 @@ footer p {
     color: #e67e22;
 }
 
-.Se-header {}
+.se-header {}
 
 /*End Framework*/
