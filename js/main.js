@@ -4,12 +4,12 @@
 'use strict';
 
 $(window).on("load", function () {
-    $(".Loading-Page").fadeOut(100)
-    // .remove();
+    $(".Loading-Page").fadeOut(100)    
 });
 
 $(function () {
-
+    // Animation scroll.
+    $('html').smoothScroll(950);
     var typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
         typeSpeed: 70,
@@ -20,7 +20,7 @@ $(function () {
         // fadeOut: true
     });
 
-    // Wrap every letter in a span
+    // Wrap every letter in a span [Loading]
     var textWrapper = document.querySelector('.ml2');
     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 

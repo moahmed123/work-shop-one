@@ -60,21 +60,9 @@ nav.navbar {
     color: #fff;
 }
 
-/*amir*/
-.navbar .logo img {
-    width: 20%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    right: 25%;
-}
-
 .navbar-light .navbar-nav .nav-link:hover {
     color: #e67e22;
 }
-
-/*amir*/
 /* End navbar */
 
 /* Start Home Page  */
@@ -88,7 +76,6 @@ nav.navbar {
     background-color: rgba(0, 0, 0, .45);
     background-blend-mode: overlay
 }
-
 .home .row,
 .home .container {
     width: 100%;
@@ -282,13 +269,6 @@ nav.navbar {
     margin: 0;
     padding: 10px 0 15px 0;
 }
-
-/*
-.service-body h4:hover {
-    color: #e67e22;
-}
-*/
-
 .service-body p {
     padding: 0 20px;
 }
@@ -296,53 +276,43 @@ nav.navbar {
 .service-body .icon {
     padding-bottom: 30px;
 }
-
 /* End service */
+
 /* Start Hire me  */
 .hire-me {
-    background-color: darkgray;
+    background-color:rgba(0, 0, 0, 0.61);
     background-image: url(../images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     background-size: cover;
 }
-
 .hire-me h2 {
-    padding-bottom: 25px;
-}
-
-/*
-.hire-me p {
-    padding: 0 50px;
-}
-*/
-.btn-lg {
-    font-size: 20px;
-    line-height: 1.5;
-    border-radius: 15px;
-}
-
-.btn-primary {
+    font-weight: 700;
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
-    padding: 15px 30px;
+    font-size: 23px;
+}
+.hire-me p {
+    color: #aba9a9;    
+    margin: 0;
+}
+.hire-me .btn-primary {
+    color: #fff;
+    background-color: #e67e22;;
+    border-color: #e67e22;
+    padding: 10px 30px;
     margin-top: 25px;
 }
-
-.btn-primary:hover {
-    background-color: #e67e22;
+.hire-me .btn-primary:hover {
+    background-color: transparent;
+    border-color: #e67e22;
+    color: #e67e22;
 }
-
-.btn-primary:hover {
-    border-color: unset;
-}
-
 /* End Hire me  */
+
 /* Start Blog */
 .blog {
-    background-color: #6666;
+    background-color: #fafafa;
 }
 
 .blog .image img {
@@ -369,7 +339,7 @@ nav.navbar {
 .contact {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #6c757d0f;
+    background-color: #fff;
 }
 
 .contact .contact-details {
@@ -424,20 +394,23 @@ nav.navbar {
 }
 
 .social {
-    background-color: #49505794;
+    background-color: #333;
 }
 
-.social-data h2 {
-    padding-bottom: 25px;
-    /*    color: #e67e22;*/
+.social-data h2 {    
+    color: #fff;
+    font-weight: 700;    
+    font-size: 23px;
 }
 
 .social-data p {
     padding: 15px 22%;
     letter-spacing: 0.3px;
     line-height: 30px;
-    color: #505050;
+    color: #fff;
     font-size: 14px;
+    color: #aba9a9;
+    margin: 0;
 }
 
 .social-data .icons {
@@ -456,22 +429,14 @@ nav.navbar {
 
 /* End social */
 /* Start Footer */
-footer {
-    padding: 25px;
-}
-
 footer p {
     width: 100%;
-    padding: 0;
-    margin: 0;
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    line-height: 30px;
-    color: #505050;
-    font-size: 14px;
+    font-weight: 600;
+    margin: 0;    
 }
 
 /* End Footer */
+
 /*Start Framework*/
 /*.navbar,*/
 .about,
