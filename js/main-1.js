@@ -8,6 +8,11 @@ $(window).on("load", function () {
 });
 
 $(function () {
+  Particles.init({
+        selector: '.background',
+        color:'#fff',
+        maxParticles: 150,
+  });
     // Animation scroll.
     $('html').smoothScroll(950);
     var typed = new Typed('#typed', {
