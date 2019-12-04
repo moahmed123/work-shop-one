@@ -41,4 +41,11 @@ $(function () {
             delay: 1000
         });
 
+    $('.grid').isotope({
+        // options
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows'
+    });
+    $grid.isotope({ filter: '.metal.transition' });
+
 });

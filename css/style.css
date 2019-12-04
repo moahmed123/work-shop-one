@@ -287,6 +287,10 @@ nav.navbar {
 .portfolioFilter {
   padding: 15px 0;
 }
+.portofolio img{
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 .portfolioFilter a {
   margin-right: 6px;
@@ -339,6 +343,40 @@ nav.navbar {
   -moz-transition-property: -moz-transform, opacity;
   transition-property: transform, opacity;
 }
+
+/*amir*/
+.filter-button-group {
+    padding: 20px 0;
+}
+
+.is-checked {
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-color: #e67e22;
+    color: #fff;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+}
+
+.button-filter {
+    margin-right: 10px;
+    padding: 5px 15px;
+    background: #fff;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+}
+
+.button-filter:hover {
+    background: #e67e22;
+    color: #fff;
+}
+
+.portofolio .images {
+    width: 100% !important;
+}
+/*amir*/
+
 /* Start Hire me  */
 .hire-me {
     background-color:rgba(0, 0, 0, 0.61);
