@@ -396,16 +396,16 @@ nav.navbar {
     margin: 0;
 }
 .hire-me .btn-primary {
-    color: #fff;
-    background-color: #e67e22;;
+    color: #e67e22;
+    background-color: #fff;
     border-color: #e67e22;
     padding: 10px 30px;
     margin-top: 25px;
+    border-radius: 10px;
 }
 .hire-me .btn-primary:hover {
-    background-color: transparent;
-    border-color: #e67e22;
-    color: #e67e22;
+    background-color: #e67e22;
+    color: #fff;
 }
 /* End Hire me  */
 
@@ -479,11 +479,13 @@ nav.navbar {
     margin: 0 20px;
     position: absolute;
     left: 160%;
-    border: 1px solid #555;
+    border: 1px solid #e67e22;
+    color: #e67e22;
 }
 
 .btn.btn-send:hover {
     background-color: #e67e22;
+    color: #fff;
 }
 
 /* End contact */
