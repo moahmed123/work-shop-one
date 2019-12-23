@@ -1,12 +1,76 @@
 /* Large devices Desktops-1350px */
 @media(max-width: 1350px) {}
+
 /* Large devices Desktops-1200px */
 @media(max-width: 1200px) {}
+
 /* Medium devices Desktops-991px */
-@media(max-width: 991px) {}
+@media(max-width: 991px) {
+
+    /* blog */
+    .content-block {
+        padding-top: 30px;
+    }
+
+    .res-991 {
+        padding: 20px;
+    }
+
+    /* blog */
+}
+
 /*Small devices - Tablets - 768px*/
-@media(max-width: 768px) {}
+@media(max-width: 768px) {
+
+    /* home */
+    .home h1 {
+        font-size: 4em;
+    }
+
+    nav.navbar {
+        padding: 25px;
+    }
+
+    /* home */
+    /* contact */
+    .contact-details span {
+        font-size: 14px;
+    }
+
+    .social .icons img {
+        width: 5%;
+    }
+
+    /* contact */
+}
+
+/*custom device*/
+@media(max-width: 500px) {
+
+    /* backtotop */
+    .fa-2x {
+        padding-top: 10px;
+    }
+
+    /* backtotop */
+    /* home */
+    .navbar-nav {
+        font-size: 13px;
+    }
+
+    /* home */
+}
+
 /*Extra small devices - Phones - 480px*/
-@media(max-width: 480px) {}
+@media(max-width: 480px) {
+
+    /* home */
+    .home h1 {
+        font-size: 3em;
+    }
+
+    /* home */
+}
+
 /*Extra small devices - Phones - 320px*/
-@media(max-width: 320px){}
+@media(max-width: 320px) {}
