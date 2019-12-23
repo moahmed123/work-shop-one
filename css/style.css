@@ -566,18 +566,22 @@ nav.navbar {
 }
 
 .contact-data {
-    padding-top: 25px;
+    margin: 0;
+    padding: 15px 5px;
 }
 
 .form-group {
     padding: 9px 20px;
-    width: 600px;
+    width: 520px;
+}
+
+.controls-1, .controls-2 {
+    padding: 0;
 }
 
 .btn.btn-send {
     margin: 0 20px;
     position: absolute;
-    left: 160%;
     border: 1px solid #e67e22;
     color: #e67e22;
 }
