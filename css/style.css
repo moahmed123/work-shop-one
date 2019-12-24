@@ -575,7 +575,8 @@ nav.navbar {
     width: 520px;
 }
 
-.controls-1, .controls-2 {
+.controls-1,
+.controls-2 {
     padding: 0;
 }
 
