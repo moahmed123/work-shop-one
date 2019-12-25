@@ -591,43 +591,60 @@ nav.navbar {
 
 .contact-data {
     width: 100%;
+    padding-top: 25px;
 }
 
-.co-info{
-		background: #ff9b00;
-		padding: 4%;
-		border-top-left-radius: 0.5rem;
-		border-bottom-left-radius: 0.5rem;
-        border: 2px solid #adb5bd;
-	}
-	.contact-info{
-		margin-top:10%;
-	}
-	.contact-info img{
-		margin-bottom: 15%;
-	}
-	.contact-info h2{
-		margin-bottom: 10%;
-	}
-	.co-form{
-		background: #fff;
-		padding: 3%;
-		border-top-right-radius: 0.5rem;
-		border-bottom-right-radius: 0.5rem;
-        border: 2px solid #adb5bd;
-	}
-	.contact-form label{
-		font-weight:600;
-	}
-	.contact-form button{
-		background: #25274d;
-		color: #fff;
-		font-weight: 600;
-		width: 25%;
-	}
-	.contact-form button:focus{
-		box-shadow:none;
-	}
+.co-info {
+    background: #e67e22;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 2px solid #e67e22;
+}
+
+.contact-information {
+    margin-top: 10%;
+}
+
+.contact-information h2 {
+    margin-bottom: 10%;
+    color: #fff;
+}
+
+.contact-information h4 {
+    margin-bottom: 10%;
+    color: #fff;
+}
+
+.co-form {
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 2px solid #e67e22;
+}
+
+.contact-form label {
+    font-weight: 600;
+    color: #e67e22;
+}
+
+.contact-form button {
+    background-color: #fff;
+    border-color: #e67e22;
+    color: #e67e22;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:hover {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
 
 
 
