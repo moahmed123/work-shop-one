@@ -59,7 +59,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -72,7 +71,7 @@
                         <a class="nav-link smooth-scroll" href="#service">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="#portofolio">Portfolio</a>
+                        <a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link smooth-scroll" href="#blog">Blog</a>
@@ -100,8 +99,6 @@
                             I'm
                             <span id="typed" class="home-type"></span>
                         </div>
-
-
                         <a class="smooth-scroll" href="#about" data-scroll="">
                             <div class="home-mouse">
                                 <div class="mouse-shape">
@@ -228,10 +225,11 @@
     </section>
     <!--End service-->
     <!--Start Portofolio http://mono.flatheme.net/Home/Portfolio-Simple.html
-or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid.html
--->
-    <section class="portofolio" id='portofolio'>
+    or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid.html
+    -->
+    <section class="portfolio" id='portfolio'>
         <div class="container">
+            <h2 class="se-header">Portfolio</h2>
             <div class="big-demo go-wide" data-js="filtering-demo">
                 <div class="filter-button-group button-group js-radio-button-group">
                     <button class="button is-checked not-checked" data-filter="*">Show All</button>
@@ -244,36 +242,33 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
 
                 <div class="grid row images">
                     <div class="col-lg-4 element-item transition metal " data-category="transition">
-                        <img src='./images/blog-1.jpg' />
+                        <img src='./images/blog-1.jpg' alt="blog-1" />
                     </div>
                     <div class="col-lg-4 element-item metalloid " data-category="metalloid">
-                        <img src='./images/blog-2.jpg' />
+                        <img src='./images/blog-2.jpg' alt="blog-2" />
                     </div>
                     <div class="col-lg-4 element-item post-transition metal " data-category="post-transition">
-                        <img src='./images/blog-3.jpg' />
+                        <img src='./images/blog-3.jpg' alt="blog-3" />
                     </div>
                     <div class="col-lg-4 element-item post-transition metal " data-category="post-transition">
-                        <img src='./images/blog-1.jpg' />
+                        <img src='./images/blog-1.jpg' alt="blog-4" />
                     </div>
                     <div class="col-lg-4 element-item transition metal " data-category="transition">
-                        <img src='./images/blog-3.jpg' />
+                        <img src='./images/blog-3.jpg' alt="blog-5" />
                     </div>
                     <div class="col-lg-4 element-item alkali metal " data-category="alkali">
-                        <img src='./images/blog-2.jpg' />
+                        <img src='./images/blog-2.jpg' alt="blog-5" />
                     </div>
                     <div class="col-lg-4 element-item alkali metal " data-category="alkali">
-                        <img src='./images/blog-1.jpg' />
+                        <img src='./images/blog-1.jpg' alt="blog-6" />
 
                     </div>
                     <div class="col-lg-4 element-item transition metal " data-category="transition">
-                        <img src='./images/blog-3.jpg' />
-
+                        <img src='./images/blog-3.jpg' alt="blog-7" />
                     </div>
                     <div class="col-lg-4 element-item alkaline-earth metal " data-category="alkaline-earth">
-                        <img src='./images/blog-2.jpg' />
-
+                        <img src='./images/blog-2.jpg' alt="blog-8" />
                     </div>
-
                 </div>
             </div>
         </div>
@@ -349,7 +344,7 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
         <div class="container">
             <div class="row">
                 <div class="contact-info">
-                    <h2 class="text-center se-header">CONTACT ME</h2>
+                    <h2 class="se-header">CONTACT ME</h2>
                     <p class="se-p text-center">
                         Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra
                         augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -383,7 +378,7 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                 </div>
                 <div class="contact-data">
                     <div class="row">
-<!--
+                        <!--
                         <div class="controls-1 col-lg-6">
                             <div class="col-lg-6">
                                 <div class="form-group">
@@ -416,91 +411,61 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                             </div>
                         </div>
 -->
-                        
-             <!-- https://bootsnipp.com/snippets/qr1zR -->           
-                        
-        <div class="co-info col-md-3">
-			<div class="contact-information">
-				<h2>Contact Us</h2>
-				<h4>We would love to hear from you !</h4>
-			</div>
-		</div>
-		<div class="co-form col-md-9">
-			<div class="contact-form">
-				<div class="form-group">
-				  <label class="control-label col-sm-3" for="fname">First Name:</label>
-				  <div class="col-sm-9">          
-					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-3" for="lname">Last Name:</label>
-				  <div class="col-sm-9">          
-					<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-3" for="email">Email:</label>
-				  <div class="col-sm-9">
-					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-				  </div>
-				</div>
-				<div class="form-group">
-				  <label class="control-label col-sm-3" for="comment">Comment:</label>
-				  <div class="col-sm-9">
-					<textarea class="form-control" rows="5" id="comment"></textarea>
-				  </div>
-				</div>
-				<div class="form-group">        
-				  <div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </div>
-				</div>
-			</div>
-		</div>         
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+
+                        <!-- https://bootsnipp.com/snippets/qr1zR -->
+
+                        <div class="co-info col-md-3">
+                            <div class="contact-information">
+                                <h2>Contact Us</h2>
+                                <h4>We would love to hear from you !</h4>
+                            </div>
+                        </div>
+                        <div class="co-form col-md-9">
+                            <div class="contact-form">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="fname">First Name:</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="lname">Last Name:</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="email">Email:</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="comment">Comment:</label>
+                                    <div class="col-sm-9">
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
