@@ -49,6 +49,9 @@
         </div>
     </div>
     <!-- End Loading -->
+    <!-- Start Back to Top Button -->
+    <a id="backtotop" class="fas fa-chevron-up fa-2x"></a>
+    <!-- End Back to Top Button -->
     <!-- Start Nav -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
@@ -56,7 +59,6 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -74,6 +76,7 @@
                     <li class="nav-item">
                         <a class="nav-link smooth-scroll" href="#blog">Blog</a>
                     </li>
+
                     <li class="nav-item">                        
                         <a class="nav-link smooth-scroll" href="# contact">Contact</a>
                     </li>
@@ -97,8 +100,6 @@
                             I'm
                             <span id="typed" class="home-type"></span>
                         </div>
-
-
                         <a class="smooth-scroll" href="#about" data-scroll="">
                             <div class="home-mouse">
                                 <div class="mouse-shape">
@@ -159,7 +160,7 @@
     </section>
     <!-- End About -->
     <!--Start service-->
-    <section class="service" id='service'> 
+    <section class="service" id='service'>
         <div class="container">
             <div class="row">
                 <div class="service-info text-center">
@@ -224,55 +225,54 @@
         </div>
     </section>
     <!--End service-->
- <!--Start Portofolio http://mono.flatheme.net/Home/Portfolio-Simple.html
-or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid.html
--->
-    <section class="portofolio" id='portofolio'>
+
+    <!--Start Portofolio http://mono.flatheme.net/Home/Portfolio-Simple.html
+    or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-Portfolio-Gallery-Plugin-Elastic-Grid.html
+    -->
+    <section class="portfolio" id='portfolio'>
         <div class="container">
+            <h2 class="se-header">Portfolio</h2>
             <div class="big-demo go-wide" data-js="filtering-demo">
                 <div class="filter-button-group button-group js-radio-button-group">
-                  <button class="button is-checked" data-filter="*">show all</button>
-                  <button class="button" data-filter=".metal">metal</button>
-                  <button class="button" data-filter=".transition">transition</button>
-                  <button class="button" data-filter=".alkali, .alkaline-earth">alkali &amp; alkaline-earth</button>
-                  <button class="button" data-filter=":not(.transition)">not transition</button>
-                  <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>                  
+                    <button class="button is-checked not-checked" data-filter="*">Show All</button>
+                    <button class="button-filter" data-filter=".metal">Metal</button>
+                    <button class="button-filter" data-filter=".transition">Transition</button>
+                    <button class="button-filter" data-filter=".alkali, .alkaline-earth">Alkali &amp; Alkaline-earth</button>
+                    <button class="button-filter" data-filter=":not(.transition)">Not Transition</button>
+                    <button class="button-filter" data-filter=".metal:not(.transition)">Metal but not Transition</button>
                 </div>
-              
-                <div class="grid row">
+
+                <div class="grid row images">
                     <div class="col-lg-4 element-item transition metal " data-category="transition">
-                        <img src='./images/blog-1.jpg'/>
+                        <img src='./images/blog-1.jpg' alt="blog-1" />
                     </div>
-                    <div class="col-lg-4 element-item metalloid " data-category="metalloid">                      
-                        <img src='./images/blog-2.jpg'/>
+                    <div class="col-lg-4 element-item metalloid " data-category="metalloid">
+                        <img src='./images/blog-2.jpg' alt="blog-2" />
                     </div>
                     <div class="col-lg-4 element-item post-transition metal " data-category="post-transition">
-                        <img src='./images/blog-3.jpg'/>
+                        <img src='./images/blog-3.jpg' alt="blog-3" />
                     </div>
-                    <div class="col-lg-4 element-item post-transition metal " data-category="post-transition">                      
-                        <img src='./images/blog-1.jpg'/>
-                    </div>
-                    <div class="col-lg-4 element-item transition metal " data-category="transition">
-                        <img src='./images/blog-3.jpg'/>
-                    </div>
-                    <div class="col-lg-4 element-item alkali metal " data-category="alkali">
-                        <img src='./images/blog-2.jpg'/>
-                    </div>
-                    <div class="col-lg-4 element-item alkali metal " data-category="alkali">
-                        <img src='./images/blog-1.jpg'/>
-                      
+                    <div class="col-lg-4 element-item post-transition metal " data-category="post-transition">
+                        <img src='./images/blog-1.jpg' alt="blog-4" />
                     </div>
                     <div class="col-lg-4 element-item transition metal " data-category="transition">
-                        <img src='./images/blog-3.jpg'/>
-                      
+                        <img src='./images/blog-3.jpg' alt="blog-5" />
+                    </div>
+                    <div class="col-lg-4 element-item alkali metal " data-category="alkali">
+                        <img src='./images/blog-2.jpg' alt="blog-5" />
+                    </div>
+                    <div class="col-lg-4 element-item alkali metal " data-category="alkali">
+                        <img src='./images/blog-1.jpg' alt="blog-6" />
+
+                    </div>
+                    <div class="col-lg-4 element-item transition metal " data-category="transition">
+                        <img src='./images/blog-3.jpg' alt="blog-7" />
                     </div>
                     <div class="col-lg-4 element-item alkaline-earth metal " data-category="alkaline-earth">
-                        <img src='./images/blog-2.jpg'/>
-                      
+                        <img src='./images/blog-2.jpg' alt="blog-8" />
                     </div>
-                   
                 </div>
-              </div>
+            </div>
         </div>
     </section>
     <!--End Portofolio-->
@@ -286,10 +286,10 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                         Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida
                         at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam id dolor id nibh
                         ultricies vehicula ut id elit.
-                    </p>                    
+                    </p>
                     <a class="hvr-shutter-out-horizontal btn btn-lg btn-primary" href="#" role="button">
                         HIRE ME
-                    </a>                    
+                    </a>
                 </div>
             </div>
         </div>
@@ -310,7 +310,7 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 image">
+                <div class="col-lg-4 res-991 image">
                     <img src="images/blog-1.jpg" alt="blog-one">
                     <h5>treat people with kindness</h5>
                     <p>13 April 2019<span>By John Doe</span></p>
@@ -319,16 +319,16 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                     </p>
                     <a href="">Read more >>></a>
                 </div>
-                <div class="col-lg-4 image">
+                <div class="col-lg-4 res-991 image">
                     <img src="images/blog-2.jpg" alt="blog-one">
-                    <h5>find another place to start again</h5>
+                    <h5>another place to start again</h5>
                     <p>28 July 2019<span>By John Doe</span></p>
                     <p class="">
                         Interdum consectetur libero id faucibus nisl tincidunt. Feugiat vivamus at augue eget arcu dictum varius duis at.
                     </p>
                     <a href="">Read more >>></a>
                 </div>
-                <div class="col-lg-4 image">
+                <div class="col-lg-4 res-991 image">
                     <img src="images/blog-3.jpg" alt="blog-one">
                     <h5>treat people with kindness</h5>
                     <p>10 November 2019<span>By John Doe</span></p>
@@ -346,14 +346,14 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
         <div class="container">
             <div class="row">
                 <div class="contact-info">
-                    <h2 class="text-center se-header">CONTACT ME</h2>
+                    <h2 class="se-header">CONTACT ME</h2>
                     <p class="se-p text-center">
                         Nulla vitae elit libero, a pharetra augue mollis interdum. Nulla vitae elit libero, a pharetra
                         augue mollis interdum. Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
                 </div>
-                <div class="contact-details">
-                    <div class="col-lg-4 text-center">
+                <div class="contact-details row">
+                    <div class="col-lg-4 col-sm-12 text-center">
                         <i class="fas fa-mobile-alt fa-3x"></i>
                         <h4>PHONE</h4>
                         <p class="se-p">
@@ -361,7 +361,7 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                         </p>
                         <span>+1 555 123456</span>
                     </div>
-                    <div class="col-lg-4 text-center">
+                    <div class="col-lg-4 col-sm-12 text-center">
                         <i class="fas fa-envelope-square fa-3x"></i>
                         <h4>EMAIL</h4>
                         <p class="se-p">
@@ -369,7 +369,7 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                         </p>
                         <span>contact@example.com</span>
                     </div>
-                    <div class="col-lg-4 text-center">
+                    <div class="col-lg-4 col-sm-12 text-center">
                         <i class="fas fa-map-marker-alt fa-3x"></i>
                         <h4>LOCATION</h4>
                         <p class="se-p">
@@ -380,6 +380,7 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                 </div>
                 <div class="contact-data">
                     <div class="row">
+                        <!--
                         <div class="controls-1 col-lg-6">
                             <div class="col-lg-6">
                                 <div class="form-group">
@@ -411,8 +412,62 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
                                 <input type="submit" class="btn btn-send" value="Send message">
                             </div>
                         </div>
+-->
+
+                        <!-- https://bootsnipp.com/snippets/qr1zR -->
+
+                        <div class="co-info col-md-3">
+                            <div class="contact-information">
+                                <h2>Contact Us</h2>
+                                <h4>We would love to hear from you !</h4>
+                            </div>
+                        </div>
+                        <div class="co-form col-md-9">
+                            <div class="contact-form">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="fname">First Name:</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="lname">Last Name:</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="email">Email:</label>
+                                    <div class="col-sm-9">
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-3" for="comment">Comment:</label>
+                                    <div class="col-sm-9">
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-2 col-sm-10">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -467,10 +522,14 @@ or this plugin https://www.jqueryscript.net/layout/Responsive-Filterable-jQuery-
     <script src="js/typed.min.js"></script>
     <!--portofolio-->
     <script src='https://isotope.metafizzy.co/v1/jquery.isotope.min.js'></script>
-    <script  src="js/script.js"></script>
+
+    <script src="js/script.js"></script>
 
     <!--Plugin Profolio-->
-    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+    </script>
+
     <script src="js/isotope-docs.min.js"></script>
 
     <!-- Loading -->
