@@ -434,7 +434,14 @@ nav.navbar {
 .filter-button-group {
     padding: 20px 0;
 }
-
+.button{
+    margin-right: 10px;
+    padding: 5px 15px;
+    background: #fff;
+    color: #e67e22;
+    border: 1px solid #e67e22;
+    border-radius: 5px;
+}
 .is-checked {
     padding: 5px 15px;
     margin-right: 10px;
@@ -443,25 +450,6 @@ nav.navbar {
     border: 1px solid #e67e22;
     border-radius: 5px;
 }
-
-.not-checked {
-    padding: 5px 15px;
-    margin-right: 10px;
-    background-color: #e67e22;
-    color: #fff;
-    border: 1px solid #e67e22;
-    border-radius: 5px;
-}
-
-.button-filter {
-    margin-right: 10px;
-    padding: 5px 15px;
-    background: #fff;
-    color: #e67e22;
-    border: 1px solid #e67e22;
-    border-radius: 5px;
-}
-
 .button-filter:hover {
     background: #e67e22;
     color: #fff;
@@ -470,7 +458,9 @@ nav.navbar {
 .portofolio .images {
     width: 100% !important;
 }
-
+button:focus {
+    outline: none;
+}
 /* portofolio */
 
 /* Start Hire me  */
