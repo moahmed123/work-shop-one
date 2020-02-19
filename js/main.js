@@ -4,7 +4,7 @@
 'use strict';
 
 $(window).on("load", function () {
-    $(".Loading-Page").fadeOut(100)
+    $(".loading-animation").fadeOut(100)
 });
 
 $(function () {
@@ -21,38 +21,19 @@ $(function () {
         // fadeOut: true
     });
 
-    // Wrap every letter in a span [Loading]
-    var textWrapper = document.querySelector('.ml2');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({ loop: true })
-        .add({
-            targets: '.ml2 .letter',
-            scale: [4, 1],
-            opacity: [0, 1],
-            translateZ: 0,
-            easing: "easeOutExpo",
-            duration: 950,
-            delay: (el, i) => 70 * i
-        }).add({
-            targets: '.ml2',
-            opacity: 0,
-            duration: 1000,
-            easing: "easeOutExpo",
-            delay: 1000
-        });
-
-    $('.grid').isotope({
-        // options
-        itemSelector: '.grid-item',
-        layoutMode: 'fitRows'
-    });
-    // $grid.isotope({ filter: '.metal.transition' });
+    //Portfolio 
+    // $('.grid').isotope({
+    //     // options
+    //     itemSelector: '.grid-item',
+    //     layoutMode: 'fitRows'
+    // });
+    // // $grid.isotope({ filter: '.metal.transition' });
 
     
     $(window).on('scroll', function () {
         // Cach For Scroll Page 
         const ScrollCount = $(window).scrollTop(),
+            Navbar = $("nav.navbar"),
             AboutScection = $('#about').offset().top,
             ServiceScection = $('#service').offset().top,
             PortfolioScection = $('#portfolio').offset().top,
@@ -61,9 +42,9 @@ $(function () {
 
         // Header Scroll Animation     
         if (ScrollCount > 50) {
-            $("nav.navbar").addClass('scroll');
+            Navbar.addClass('scroll');
         } else {
-            $("nav.navbar").removeClass('scroll');
+            Navbar.removeClass('scroll');
         }
         // Active Nav List When Scroll 
         if( ScrollCount >= AboutScection - 20){
@@ -90,7 +71,5 @@ $(function () {
     function ActiveNavigation(ElementAction){
         $('nav .navbar-nav li').removeClass('active')
         $(ElementAction).addClass('active');
-
     }
-
 });
