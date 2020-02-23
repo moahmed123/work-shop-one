@@ -47,95 +47,64 @@
 
 /*Small devices - Tablets - 768px*/
 @media(max-width: 768px) {
-
     /* home */
     .home h1 {
         font-size: 4em;
     }
-
     nav.navbar {
         padding: 25px;
-    }
-
-    /* home */
-    
+    }    
     /* portofolio */
     .button-filter {
         margin-top: 10px;
         padding: 5px;
     }
-
-    /* portofolio */
-
-    .co-form {
-        margin: 25px;
-    }
-
     .contact-form label {
         font-size: 13px;
     }
-
     /* contact */
-    
+    .contact .co-form,
+    .contact .co-info{
+        border-radius: 0;        
+    }
     .contact-details span {
         font-size: 14px;
     }
-
     .social .icons img {
         width: 5%;
     }
-
-    /* contact */
+    nav.navbar.scroll{
+        padding: 10px 20px
+    }
 }
 
-/*custom device*/
-
+/* custom device */
 @media(max-width: 510px) {
-
-    /* backtotop */
-    
-    .fa-2x {
-        padding-top: 10px;
-    }
-
-    /* backtotop */
     /* home */
     .navbar-nav {
         font-size: 13px;
-    }
-
-    /* home */
+    }    
     /* portofolio */
     .button-filter {
         margin-top: 10px;
         padding: 4px;
     }
-
-    /* portofolio */
 }
-
-/*Extra small devices - Phones - 480px*/
+/* Extra small devices - Phones - 480px */
 @media(max-width: 480px) {
-
     /* home */
     .home h1 {
         font-size: 3em;
     }
-
-    /* home */
-
     .contact-form button {
         width: 30%;
     }
 }
-
 /*custom device*/
 @media(max-width: 440px) {
-
     .contact-form button {
         width: 55%;
     }
 }
-
 /*Extra small devices - Phones - 320px*/
 @media(max-width: 320px) {}
