@@ -1,0 +1,97 @@
+/* Large devices Desktops-1350px */
+@media(max-width: 1350px) {}
+
+/* Large devices Desktops-1200px */
+@media(max-width: 1200px) {}
+
+/* Medium devices Desktops-991px */
+@media(max-width: 991px) {
+    /* blog */
+    .content-block {
+        padding-top: 30px;
+    }
+    .res-991 {
+        padding: 20px;
+    }
+    /* blog */
+    /* portofolio */
+    .button-filter {
+        margin-top: 15px;
+    }
+    /* portofolio */
+
+    /* contact */
+    .contact-information h2 {
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .contact-information h4 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .contact-form label {
+        font-size: 15px;
+    }
+    /* contact */
+}
+
+/*Small devices - Tablets - 768px*/
+@media(max-width: 768px) {
+    .se-p,.service-info p{
+        padding: 15px 10px;
+    }
+    /* home */
+    .home h1 {
+        font-size: 4em;
+    }
+    nav.navbar {
+        padding: 25px;
+    }    
+    /* portofolio */
+    .button-filter {
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .contact-form label {
+        font-size: 13px;
+    }
+    /* contact */
+    .contact .co-form,
+    .contact .co-info{
+        border-radius: 0;        
+    }
+    .contact-details span {
+        font-size: 14px;
+    }
+    .social .icons img {
+        width: 5%;
+    }
+    nav.navbar.scroll{
+        padding: 10px 20px
+    }
+    
+    .portfolio .button {        
+        margin-bottom: 10px;
+    }
+}
+/* Extra small devices - Phones - 480px */
+@media(max-width: 480px) {
+    /* home */
+    .navbar-nav {
+        font-size: 13px;
+    }    
+    /* portofolio */
+    .button-filter {
+        margin-top: 10px;
+        padding: 4px;
+    }
+    /* home */
+    .home h1 {
+        font-size: 3em;
+    }
+    .contact-form button {
+        width: 100%;
+    }
+}
+/*Extra small devices - Phones - 320px*/
+@media(max-width: 320px) {}
