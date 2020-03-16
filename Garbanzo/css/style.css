@@ -150,9 +150,14 @@ nav.navbar {
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
+.navbar-light .navbar-brand{
+    padding: 0;
+    margin: 0;
+}
 .navbar-light .nav-item.active a.nav-link {
     color: #e67e22;
 }
@@ -177,14 +182,16 @@ nav.navbar.scroll{
 .home {
     width: 100%;
     height: 100%;
-    background-image: url(../images/home.jpg);
+    background-image: url(../images/home.jpg); /** You Can Change Background Hare From Index 1 **/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, .45);
     background-blend-mode: overlay
 }
-
+.home.home-particles{
+    background-image: url(../images/background2.jpeg); /** You Can Change Background Hare From Index particles **/
+}
 .home #particles-js {
     position: absolute;
     width: 100%;
@@ -296,7 +303,7 @@ nav.navbar.scroll{
     font-size: 16px;
     line-height: 29px;
     margin: 0;
-    color: #080808;
+    color: #a1a1a1 ;
 }
 
 .about h6 {
@@ -310,6 +317,7 @@ nav.navbar.scroll{
     border-bottom: 1px solid #f0f0f0;
     margin-bottom: 25px;
     padding-bottom: 20px;
+    padding-top: 15px;
 }
 
 .about a {
@@ -354,21 +362,14 @@ nav.navbar.scroll{
     background-color: #fff;
     color: #e67e22;
 }
-
+.about .img-fluid {    
+    width: 100%;
+}
 /* End About Page*/
 /* Start service */
 .service {
     background-color: #fafafa;
 }
-
-.service-info p {
-    padding: 15px 22%;
-    letter-spacing: 0.3px;
-    line-height: 30px;
-    color: #505050;
-    font-size: 14px;
-}
-
 .service-body {
     padding-top: 30px;
     display: flex;
@@ -387,6 +388,7 @@ nav.navbar.scroll{
 
 .service-body p {
     padding: 0 20px;
+    line-height: 27px;
 }
 
 .service-body .icon {
@@ -469,7 +471,7 @@ nav.navbar.scroll{
 
 /* portofolio */
 .portfolio .filter-button-group {
-    padding: 30px 0 40px 0;
+    padding: 35px 0 50px 0;
 }
 .portfolio .button{
     margin-right: 10px;
@@ -477,17 +479,12 @@ nav.navbar.scroll{
     background: #fff;
     color: #e67e22;
     border: 1px solid #e67e22;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 0;
 }
-.portfolio .is-checked {
-    padding: 5px 15px;
-    margin-right: 10px;
+.portfolio .is-checked {        
     background-color: #e67e22;
-    color: #fff;
-    border: 1px solid #e67e22;
-    font-size: 13px;
-    border-radius: 0;
+    color: #fff;    
 }
 .portfolio .button-filter:hover {
     background: #e67e22;
@@ -570,11 +567,6 @@ button:focus {
     float: right;
     color: #e67e22;
 }
-.blog .image p{
-    color: #7f7f7f;
-    font-size: 14px;
-}
-
 .blog .image a {
     color: unset;
     text-decoration: none;        
@@ -589,7 +581,9 @@ button:focus {
 .contact {
     background-color: #fff;
 }
-
+.contact .sub-para{
+    margin-bottom: 10px;
+}
 .contact .contact-details {
     padding-bottom: 25px;
 }
@@ -605,7 +599,7 @@ button:focus {
 
 .contact-details h4 {
     padding: 5px 0;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -645,6 +639,7 @@ button:focus {
 
 .contact-information p {    
     color: #fff;
+    font-size: 14px;
 }
 
 .co-form {
@@ -696,8 +691,7 @@ button:focus {
     font-size: 23px;
 }
 
-.social-data p {
-    padding: 15px 22%;
+.social-data p {    
     letter-spacing: 0.3px;
     line-height: 30px;
     color: #fff;
@@ -760,11 +754,11 @@ footer p {
 }
 
 .se-p {
-    padding: 15px 22%;
+    padding: 20px 22%;
     letter-spacing: 0.3px;
     line-height: 30px;
     color: #505050;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .span-color {
@@ -779,6 +773,12 @@ footer p {
     line-height: 30px;
     padding-bottom: 20px;
     text-transform: uppercase;
+    margin: 0;
+}
+.sub-para{
+    color: #7f7f7f;
+    font-size: 14px;    
+    line-height: 25px;
 }
 
 /*End Framework*/

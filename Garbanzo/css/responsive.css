@@ -2,7 +2,14 @@
 @media(max-width: 1350px) {}
 
 /* Large devices Desktops-1200px */
-@media(max-width: 1200px) {}
+@media(max-width: 1200px) {
+    .se-p{
+        padding: 20px 3%;
+    }
+    .portfolio .button{
+        margin-bottom: 20px;
+    }
+}
 
 /* Medium devices Desktops-991px */
 @media(max-width: 991px) {
