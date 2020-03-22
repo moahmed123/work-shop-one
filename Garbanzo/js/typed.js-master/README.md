@@ -51,8 +51,6 @@ https://github.com/features/package-registry
 
 https://slack.com/
 
-https://envato.com/
-
 https://gorails.com/
 
 https://productmap.co/
